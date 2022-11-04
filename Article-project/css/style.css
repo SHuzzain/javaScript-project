@@ -1,0 +1,108 @@
+*::after , ::before{
+    box-sizing: border-box;
+}
+p ,h2{
+    margin: 0;
+}
+body{
+    margin: 0;
+}
+main{
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.main-page{
+    margin-top: min(10vh);
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 40px;
+  width: 100%;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 12px;
+}
+.title > p{
+    font-size: small;
+    font-weight: 600;
+    text-align: center;
+}
+.sectionOfPage{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    height: 230px;
+    width: 100%;
+}
+.sectionOfPage > img{
+    object-fit: cover;
+    width: 400px;
+    box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+    border-radius: 7px;
+}
+.alignment{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 400px;
+    height: 100%;
+    box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+    border-radius: 7px;
+    overflow-y: scroll;
+    
+}
+.btns{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.btns > *{
+    width: 100%;
+    padding: 10px;
+    letter-spacing: 1px;
+    border: none;
+    font-size: 0.8rem;
+    font-weight: 500;
+    background-color: rgb(180, 177, 177);
+    outline: none !important;
+    color: white;
+    outline-offset: 0;
+}
+.btns > *:hover{
+    background-color: rgb(128, 128, 128);
+}
+.btns > :first-child{
+    box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.10);
+    border-radius: 7px 0px 0px 0px;
+}
+.btns > :last-child{
+    border-radius: 0px 7px 0px 0px;
+}
+.article-section {
+    padding: min(100%, 1rem);
+    padding-top: 0%;
+    padding-right: 0;
+}
+.article-section > div {
+    display: none;
+}
+.article-section .active {
+   display: block;
+}
+.article-section > div p{
+    font-size: large;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.article-section > div span {
+    font-size: 0.8rem;
+    font-weight: 600;
+    max-width: 200px;
+    text-align: justify;
+}
