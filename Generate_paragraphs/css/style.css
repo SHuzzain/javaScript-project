@@ -1,0 +1,57 @@
+*::after,::before{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+main{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainPage{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.mainPage > h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: x-large;
+    font-weight: bold;
+}
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-container > p{
+    margin: 0;
+    font-size: larger;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+.input-container > input {
+    width: 50px;
+    margin-right: 12px;
+}
+.section-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+
+}
+.gen-para{
+    width: 60%;
+    font-size: min(100% ,  1em);
+    font-weight: 600;
+    text-align: justify;
+    row-gap: 30px;
+}

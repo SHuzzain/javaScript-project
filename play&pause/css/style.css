@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.main-container > video{
+     object-fit: cover;
+     height: 100vh;
+     width: 100%;
+     position: absolute;
+}
+.blackBlurClr{
+    background-color: rgba( 0, 0, 0, 0.4);
+    z-index: 1;
+    width: 100%;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blackBlurClr > h1{
+    color: white;
+    font-size: 45px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+.on-off-btn{
+ align-self: flex-end; 
+ z-index: 1;
+ position: fixed;
+  left:5%;
+  bottom: 6%;
+}
+.on-off-btn > button{
+    position: relative;
+    display: flex;
+    border: none;
+    outline: 0;
+    outline-offset: 0;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    font-size: x-small;
+    font-weight: 700;
+    color: #0d6efd;
+    width: 90px;
+    height: 1.5rem;
+    border-radius: 8px;
+   
+
+}
+.on-off-btn > button > p{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    position: absolute;
+    background-color: #0d6efd;
+    width: 50%;
+    border-radius: 8px;
+    transform: translateX(-23.6px);
+    transition: transform 0.5s;
+}
+.on-off-btn .playAndPause{
+    transform: translateX(23.6px);
+    left: auto;
+}

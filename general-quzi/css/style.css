@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+:root{
+    --shadow : 0px 0px 4px 0px rgba(0,0,0,0.3);
+    --color : #be9407;
+}
+.main-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.main-container > section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    gap: 20px;
+}
+.title{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color);
+    font-family: 'Great Vibes', cursive;
+}
+.main-section{
+    display: flex;
+    align-items: center;
+    width: 500px;
+}
+.article-container{
+    box-shadow: var(--shadow);
+    width: 100%;
+    padding: 10px;
+    border-radius: 0.2rem;
+}
+.question-title{
+   display: flex;
+   justify-content: space-between;
+   flex: 1;
+   align-items: center;
+}
+.question-title > p{
+    margin: 0;
+    width: 100%;
+    font-size: small;
+    text-transform: capitalize;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.question-btn{
+    border: none;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    font-family: none;
+    font-size: 0;
+    line-height:normal;
+}
+button:focus{
+    outline: none;
+}
+.plus-icon > i{
+     color: var(--color);
+     font-size: large;
+     font-weight: 600;
+    transition-duration: 0.5s;
+}
+.plus-icon{
+    border: none;
+}
+.minusIcon{
+display: none;
+   transition-duration: 0.5s;
+}
+.minusIcon:hover{
+    transform:  rotate(90deg);
+}
+.article-container > div:last-child{
+    display: none;
+    font-size: small;
+    font-weight: 600;
+}
+.plusIcon:hover{
+    transform: rotate(90deg);
+}

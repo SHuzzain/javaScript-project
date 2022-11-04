@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+
+}
+.main-page{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(223, 223, 223);
+}
+.main-container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    width: 50%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.81);
+    -webkit-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.81);
+    -moz-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.81);
+    padding-top: 10px;
+    border-radius: 5px;
+    padding: 40px;
+}
+.container-top{
+   margin-bottom: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-size: 45px;
+   font-weight: bolder;
+
+}
+.underLine{
+    height: 3px;
+    width: 100px;
+    background-color: rgb(56, 188, 250);
+}
+.buttons-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.description{
+    width: 100%;
+    padding: 12px 20px;
+    text-align: center;
+    font-size: medium;
+    font-weight: 400;
+    font-family: inherit;
+}
+.main-image{
+    width: 500px;
+    height: 200px;
+    margin-left: -40px;
+     border-radius: 100%;
+    max-width: 45%;
+     background-color: olive;
+     box-shadow: 12px -6px 0px -2px rgba(28,176,250,0.73);
+     -webkit-box-shadow: 12px -6px 0px -2px rgba(28,176,250,0.73);
+     -moz-box-shadow: 12px -6px 0px -2px rgba(28,176,250,0.73);
+}
+.review-top{
+    margin: 0;
+}
+.arrow-btns{
+    border: none;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    width: 50px;
+}
+.random_selectBtn{
+    color: rgb(56, 188, 250);
+    border-radius: 8px;
+    box-shadow: 1px 1px 74px -38px rgba(0,0,0,0.75) inset;
+  -webkit-box-shadow: 1px 1px 74px -38px rgba(0,0,0,0.75) inset;
+   -moz-box-shadow: 1px 1px 74px -38px rgba(0,0,0,0.75) inset;
+    border: 1px solid rgb(56, 188, 250);
+}
+.double-quotation{
+   background-color:rgb(56, 188, 250) ;
+   width: 50px;
+   height: 50px;
+   border-radius: 100% ;
+   color: white;
+   font-size: 50px;
+   padding-top: 15px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 70px;
+   z-index: 1;
+   margin-bottom: 100px;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reviewer-name{
+    font-weight: bolder;
+}
+.reviwer-info{
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction:column ;
+}

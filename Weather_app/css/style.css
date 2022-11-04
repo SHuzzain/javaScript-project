@@ -1,0 +1,16 @@
+#city-input, #weather-output {
+    max-width: 400px;
+    margin: 0 auto;
+}
+  
+.banner {
+    color: #FFD23F;
+    font-family: sans-serif;
+}
+#box{
+    background-color: lightgreen;
+    width: 517px;
+    top: 21%;
+    right: 28%;
+    position: absolute;
+}

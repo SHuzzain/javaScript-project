@@ -1,0 +1,153 @@
+html{
+    scroll-behavior: smooth;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+:root{
+    --shadow : 0px 0px 5px 2px rgba(0,0,0,0.10);
+}
+.mainPage-container{
+    box-shadow: var(--shadow);
+    display: flex;
+    border: 5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    padding: 23px;
+    padding-bottom:0;
+    transition: height 0.5s;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+.alert{
+    visibility: hidden;
+    width: 100%;
+    height: 25px;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 0;
+    letter-spacing: 3px;
+    font-size: smaller;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+.alert-sucess{
+    visibility: visible;
+    background-color: rgba(88, 180, 94, 0.414);
+}
+.alert-warning{
+    visibility: visible;
+    background-color: rgba(255, 0, 0, 0.414);
+}
+.header > h2{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.updateSection{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+    
+}
+.inputValue{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    
+   
+}
+.inputValue > :last-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    width: 150px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: smaller;
+    border-radius: 0px 5px 5px 0px;
+    background-color: rgb(80, 180, 196);
+}
+.inputValue > :last-child:hover{
+    background-color: rgba(80, 181, 196, 0.553);
+    border: 1px solid  rgb(80, 180, 196);
+}
+.inputTextBox{
+    padding-left: 12px;
+    border-radius: 5px 0px 0px 5px;
+    border: 2px solid  rgb(80, 180, 196);
+    width: 100%;
+}
+.item-list{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    gap: 8px;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 5px 12px;
+    border-radius: 15px;
+}
+.all-prodect{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    width: 100%;
+}
+.item-list:hover{
+    background-color: rgba(224, 224, 224, 0.416);
+}
+.item-list > span{
+    margin-right: auto;
+}
+.item-list > :last-child{
+  color: red;
+  transform: scale(0.8,0.8);
+  cursor: pointer;
+}
+.item-list > :nth-child(2){
+    margin-top: 5px;
+    color: rgb(48, 194, 0);
+    margin-bottom: auto;
+    cursor: pointer;
+}
+.updateSection > :last-child{
+    color: red;
+    font-weight: 600;
+    letter-spacing: 4px;
+    font-size: X-small;
+    text-transform: capitalize;
+    margin-bottom:  20px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.10);
+    transition: background-color 0.5s, color 0.3s;
+}
+.updateSection > :last-child:hover{
+    outline: 1px solid red;
+    background-color: red;
+    color: white;
+}
+.myForm{
+    display: flex;
+    width: 100%;
+    
+    flex-direction: column;
+}

@@ -1,0 +1,81 @@
+*::after , ::before{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+main{
+    height: auto;
+    margin-top: 5em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   gap: 2.5rem;
+}
+.iphoneImg > img{
+    width: 450px;
+    object-fit: cover;
+    box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+}
+.article-container{
+  width: 450px;
+  height: auto;
+  box-shadow: 10px 0px 5px 0px rgba(0,0,0,0.10);
+}
+.article-container > header > h2 {
+    text-transform: uppercase;
+    font-size: 2vw;
+    color: rgb(0, 53, 114);
+}
+.article-container > header > p{
+   text-transform: capitalize;
+   font-size: small;
+   font-weight: 900;
+   letter-spacing: 4px;
+}
+.about-articale{
+    font-size: smaller;
+    font-weight: 600;
+}
+.count-down{
+    display: flex;
+    gap: 20px;
+}
+.count-down div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 80px;
+    width: 80px;
+    background-color:  rgb(0, 0, 12);
+    color: white;
+    gap: 3px;
+}
+.count-down > div > h2{
+  margin: 0;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+.count-down > div :last-child{
+    text-transform: uppercase;
+    font-size: smaller;
+}
+body > h3 {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 39%;
+    right: 30%;
+    color: red;
+}
+.expired{
+    display: grid;
+}
