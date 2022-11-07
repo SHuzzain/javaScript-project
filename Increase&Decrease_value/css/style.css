@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+
+}
+.main-page{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-optionOne{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main-optionTwo{
+    word-spacing: 15px;
+}
+.main-optionOne > p{
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 0;
+}
+.main-optionOne > span {
+    font-size: 60px;
+    color: black;
+    font-weight: 500;
+
+}
+.btn{
+    font-size: small;
+    font-weight: bold;
+    width: 100px;
+    text-align: center;
+    align-items: center;
+    padding: 1px;
+}
